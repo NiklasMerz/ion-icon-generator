@@ -1,0 +1,24 @@
+{
+  "name": "ion-icon-generator",
+  "version": "0.0.1",
+  "description": "CLI tool to get your own Ionicons",
+  "main": "bin/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiklasMerz/ion-icon-generator.git"
+  },
+  "bin": {
+    "icon-font-generator": "bin/index"
+  },
+  "scripts": {},
+  "author": "Niklas Merz",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.1",
+    "colors": "^1.1.2",
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0",
+    "readline": "^1.3.0",
+    "webfonts-generator": "^0.4.0"
+  }
+}
