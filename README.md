@@ -1,4 +1,4 @@
-# Refactor of icon-font-generator
+# ion-icon-generator
 
 > At now this is a quick and dirty fork of the excellent CLI tool: [icon-font-generator](https://github.com/Workshape/icon-font-generator)
 
@@ -8,6 +8,7 @@
 npm i -g ion-icon-generator
 ion-icon-generator inputFolder/*.svg -o outputFolder
 ```
+See `ion-icon-generator  -h` for help
 
 Copy `icons.scss` to `src/theme` and all fonts from the output folder to `src/assets/fonts`. Make sure your import `icons.sccs` in `app.scss`.
 
@@ -17,6 +18,7 @@ Copy `icons.scss` to `src/theme` and all fonts from the output folder to `src/as
 
 * Use templates for icons.scss generation
 * CLI flags
-* Ionic project structure copy
+* Copy to ionic project
+* Clean Up Async
 * HELP
 * README

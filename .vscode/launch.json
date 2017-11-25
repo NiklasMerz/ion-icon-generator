@@ -7,12 +7,25 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch",
             "program": "${workspaceFolder}/bin/ion-icon-generator",
             "args": [
                 "test/input/*.svg",
                 "-o",
                 "test/output"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch (Prefix)",
+            "program": "${workspaceFolder}/bin/ion-icon-generator",
+            "args": [
+                "test/input/*.svg",
+                "-o",
+                "test/output",
+                "-p",
+                "test"
             ]
         }
     ]

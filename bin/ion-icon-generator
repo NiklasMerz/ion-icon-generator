@@ -92,7 +92,8 @@ function showHelp() {
     'Example :'.bold + ' icon-font-generator src/*.svg -o dist\n\n' +
 
     'Options:\n'.bold +
-    '  -o, --out        '.bold + 'Output icon font set files to <out> directory\n'.italic
+    '  -o, --out        '.bold + 'Output icon font set files to <out> directory\n'.italic + 
+    '  -p, --prefix     '.bold + 'Set prefix for icon names\n'.italic
   )
 }
 
