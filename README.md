@@ -1,8 +1,12 @@
 # ion-icon-generator
 
-> At now this is a quick and dirty fork of the excellent CLI tool: [icon-font-generator](https://github.com/Workshape/icon-font-generator)
+> At now this is a quick and dirty fork of the excellent CLI tool: [icon-font-generator](https://github.com/Workshape/icon-font-generator). Stay tuned
 
-## How to use
+## About
+This tool is a fork of [icon-font-generator](https://github.com/Workshape/icon-font-generator) with customization for generating Ionic icons. It runs with NodeJS, generates fonts with [
+webfonts-generator](https://www.npmjs.com/package/webfonts-generator) and integrates easily with your Ionic project build (WIP).
+
+## How to use from the command line
 
 ```
 npm i -g ion-icon-generator
