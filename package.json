@@ -1,6 +1,6 @@
 {
   "name": "ion-icon-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI tool to get your own Ionicons",
   "main": "bin/ion-icon-generator",
   "preferGlobal": true,
