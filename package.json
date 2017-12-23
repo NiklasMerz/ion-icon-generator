@@ -3,7 +3,6 @@
   "version": "0.0.5",
   "description": "CLI tool to get your own Ionicons",
   "main": "bin/ion-icon-generator",
-  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/NiklasMerz/ion-icon-generator.git"
