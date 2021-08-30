@@ -1,7 +1,7 @@
 # ion-icon-generator
 [![Join the chat at https://gitter.im/ion-icon-generator/Lobby](https://badges.gitter.im/ion-icon-generator/Lobby.svg)](https://gitter.im/ion-icon-generator/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-> This is an early, modified version of the CLI tool: [icon-font-generator](https://github.com/Workshape/icon-font-generator).
+> # This is no longer needed for newer Ionic Versions and the project is unmaintained
 
 ## About
 This tool is a fork of [icon-font-generator](https://github.com/Workshape/icon-font-generator) with customizations for generating Ionic icons. It runs with NodeJS, generates fonts with [
